@@ -1,0 +1,13 @@
+[ Ocean / Source ] 
+       │
+       ▼
+ 1. Intake (Water is gathered and large debris is blocked)
+       │
+       ▼
+ 2. Pretreatment (Fine particles, algae, and chemicals are filtered out)
+       │
+       ▼
+ 3. RO - Reverse Osmosis (High pressure forces pure water through membranes)
+       │
+       ▼
+[ Fresh Drinking Water ]
