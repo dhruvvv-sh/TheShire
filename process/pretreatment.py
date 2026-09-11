@@ -1,5 +1,5 @@
 from core.plant_component import PlantComponent 
-from core.stream import WaterStream
+from streams.stream import WaterStream
 
 class PreTreatment(PlantComponent):
     """
