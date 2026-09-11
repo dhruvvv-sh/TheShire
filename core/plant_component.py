@@ -1,50 +1,20 @@
-from stream import WaterStream
-
-
 class PlantComponent:
     """
-    Base class for every physical unit in the desalination plant.
+    Base class for all physical desalination plant components.
     """
 
-    def __init__(self, name: str):
+    def __init__(self, name):
         self.name = name
 
-    def process(self, water_stream: WaterStream):
+    def process(self, water_stream):
         """
-        Transform the incoming WaterStream.
+        Process an incoming WaterStream.
 
-        Subclasses must implement this method.
+        Each physical component must implement this.
         """
         raise NotImplementedError(
-            f"{self.name} must implement the process() method"
+            f"{self.__class__.__name__} must implement process()"
         )
 
-# example of a specific plant component, Pretreatment, which inherits from PlantComponent
-"""
-class Pretreatment(PlantComponent):
-
-    def process(self, water_stream: WaterStream):
-        return water_stream.with_changes(
-            temperature=5
-        )
-
-- # output : WaterStream(flow=1000, pressure=3, temperature=5, salinity=35000, pH=7.8)
-
-point of this ->
-
-                 WaterStream
-                      │
-                      ▼
-              PlantComponent
-                      │
-          ┌───────────┼───────────┐
-          ▼           ▼           ▼
-    Pretreatment    ROUnit    PostTreatment
-          │           │
-          │       ┌───┴───┐
-          │       ▼       ▼
-          │   Permeate  Brine
-          │
-          ▼
-    WaterStream
-"""
+    def __repr__(self):
+        return f"{self.__class__.__name__}(name='{self.name}')"
