@@ -1,0 +1,31 @@
+--- Water streams ---
+Raw seawater flow          : 4213.00 m3/h
+After DAF                  : 4204.57 m3/h
+After DMF                  : 4196.16 m3/h
+After cartridge filter     : 4191.97 m3/h
+UF permeate to RO          : 3982.37 m3/h
+UF reject                  : 209.60 m3/h
+RO permeate / product      : 1911.54 m3/h
+RO brine                   : 2070.83 m3/h
+
+--- Water quality ---
+Raw seawater TDS           : 34458.00 mg/L
+After DAF TSS              : 7.5000 mg/L
+After DMF TSS              : 1.5000 mg/L
+After CF TSS               : 0.7500 mg/L
+RO feed TDS                : 34458.00 mg/L
+Product water TDS          : 148.17 mg/L
+RO brine TDS               : 66128.61 mg/L
+
+--- Performance ---
+Overall plant recovery     : 45.37 %
+RO recovery                : 48.00 %
+RO salt rejection          : 99.57 %
+Estimated pump power       : 7118.81 kW
+Estimated ERD recovered    : 2841.64 kW
+Estimated net SEC          : 2.238 kWh/m3
+
+--- Balance checks (should be close to zero) ---
+RO water balance error     : 0.000000 m3/h
+RO salt balance error      : 0.000000 (Q*TDS units)
+Plant water balance error  : 0.000000 m3/h

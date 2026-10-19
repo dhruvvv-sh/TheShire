@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2566" height="1288" viewBox="0 0 2566 1288">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#225a98"/></marker>
+    <style>
+      .title{font:700 43px Arial,sans-serif;fill:#111d35}.box{fill:#d9ebf8;stroke:#225a98;stroke-width:4}.product{fill:#d7f3dd;stroke:#278c45;stroke-width:4}.brine{fill:#ffe5ce;stroke:#bf4d0b;stroke-width:4}.reject{fill:#faf2d2;stroke:#b49a42;stroke-width:3}.label{font:700 25px Arial,sans-serif;fill:#111d35;text-anchor:middle}.sub{font:700 23px Arial,sans-serif;fill:#111d35;text-anchor:middle}.summary{font:24px Arial,sans-serif;fill:#111d35;text-anchor:middle}.flow{stroke:#225a98;stroke-width:5;fill:none;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="2566" height="1288" fill="white"/>
+  <text x="1283" y="115" class="title" text-anchor="middle">SWRO Desalination Plant - Process Flow Diagram</text>
+  <rect x="67" y="440" width="300" height="216" class="box"/><text x="217" y="533" class="label">SEAWATER INTAKE</text><text x="217" y="574" class="sub">4213.00 m³/h</text>
+  <rect x="430" y="440" width="300" height="216" class="box"/><text x="580" y="533" class="label">DAF</text><text x="580" y="574" class="sub">4204.57 m³/h</text>
+  <rect x="793" y="440" width="300" height="216" class="box"/><text x="943" y="533" class="label">DMF</text><text x="943" y="574" class="sub">4196.16 m³/h</text>
+  <rect x="1156" y="440" width="300" height="216" class="box"/><text x="1306" y="533" class="label">CARTRIDGE FILTER</text><text x="1306" y="574" class="sub">4191.97 m³/h</text>
+  <rect x="1519" y="440" width="300" height="216" class="box"/><text x="1669" y="533" class="label">UF</text><text x="1669" y="574" class="sub">Permeate: 3982.37 m³/h</text>
+  <rect x="1882" y="440" width="300" height="216" class="box"/><text x="2032" y="533" class="label">REVERSE OSMOSIS</text><text x="2032" y="574" class="sub">Feed: 3982.37 m³/h</text>
+  <path d="M367 548 H430" class="flow"/><path d="M730 548 H793" class="flow"/><path d="M1093 548 H1156" class="flow"/><path d="M1456 548 H1519" class="flow"/><path d="M1819 548 H1882" class="flow"/>
+  <rect x="2247" y="365" width="290" height="165" class="product"/><text x="2392" y="418" class="label">FRESHWATER PRODUCT</text><text x="2392" y="457" class="sub">1911.54 m³/h</text><text x="2392" y="496" class="sub">TDS: 148.17 mg/L</text><path d="M2182 510 L2247 447" class="flow"/>
+  <rect x="2247" y="743" width="290" height="165" class="brine"/><text x="2392" y="797" class="label">RO BRINE</text><text x="2392" y="836" class="sub">2070.83 m³/h</text><text x="2392" y="875" class="sub">TDS: 66128.61 mg/L</text><path d="M2182 600 L2247 825" class="flow"/>
+  <rect x="1519" y="908" width="300" height="127" class="reject"/><text x="1669" y="963" class="label">UF REJECT</text><text x="1669" y="1002" class="sub">209.60 m³/h</text><path d="M1669 656 V908" class="flow"/>
+  <text x="1283" y="1138" class="summary">Overall recovery: 45.37%     RO salt rejection: 99.57%</text><text x="1283" y="1178" class="summary">Estimated net SEC: 2.238 kWh/m³</text><text x="1283" y="1218" class="summary">Water and salt balance checks are available in the model output.</text><text x="1283" y="1258" class="summary">Prototype only: pretreatment and energy parameters include assumptions.</text>
+</svg>
